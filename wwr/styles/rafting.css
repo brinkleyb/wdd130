@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #023047;
+    --secondary-color: #e0e1dd;
+    --accent1-color: #8ECAE6;
+    --accent2-color: #FB8500;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
+
+    --nav-background-color: #FB8500;
+    --nav-link-color: #e0e1dd;
+    --nav-hover-link-color: #8ECAE6;
+    --nav-hover-background-color: #FB8500;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--accent2-color);
+}
+
+h2 {
+    color: var(--accent1-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+.sociallinks {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    max-width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    top: 7%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    max-width: 100px;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.hero article img {
+    display: block;
+    margin: 0 auto;
+    float: right;
+    max-width: 100%;
+}
+
