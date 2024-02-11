@@ -106,8 +106,8 @@ footer {
 
 .adventure img {
     width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
+    height: auto;
+    margin-bottom: 5px;
 }
 
 .adventures img:last-child {
@@ -177,3 +177,44 @@ footer {
     max-width: 150px;
 }
 
+.contact-form {
+    background-color: var(--secondary-color);
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--accent2-color);
+}
