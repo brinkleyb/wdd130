@@ -38,6 +38,16 @@ main section img {
     margin-bottom: 20px;
 }
 
+h1 a {
+    text-decoration: none;
+    justify-content: center;
+    color: var(--primary-color)
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     color: var(--accent2-color);
 }
@@ -217,4 +227,67 @@ footer {
 
 .contact-form button[type="submit"]:hover {
     background-color: var(--accent2-color);
+}
+
+.trips-item {
+    clear: both; 
+    margin-bottom: 20px;
+  }
+  
+  .trips-item img {
+    float: left; 
+    max-width: 50%;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  
+  .trips-content {
+    overflow: hidden; 
+  }
+  
+  .trips-content h1,
+  .trips-content p {
+    margin-left: 20px; 
+  }
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.content img {
+    max-width: 90%;
+    max-height: 80%;
 }
